@@ -35,6 +35,19 @@
     </style>
   </head>
   <body>
+    <!-- facebook  -->
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/pt_PT/sdk.js#xfbml=1&version=v14.0" nonce="MXMlG0Br"></script>
+
+    <!-- whatsapp -->
+    <script>  
+    //user-defined function to open and share web content on WhatsApp  
+    function openWhatsApp() {  
+        window.open('whatsapp://send?text= https://github.com/mbpfilho');  
+    }  
+</script>  
+
+
     <div class="jumbotron">
         <div class="container-fluid">
             <h1>Join us and build Freedom</h1>
@@ -57,10 +70,16 @@
 
         <div class="row">
             <!-- facebook button -->
-            <div class="col-sm-offset-3 col-sm-2"></div>
+            <div class="col-sm-offset-3 col-sm-2">
+                <div class="fb-like" data-href="https://github.com/mbpfilho" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
+            </div>
 
-            <!-- instagram button -->
-            <div class="col-sm-2"></div>
+            <!-- whatsapp button -->
+            <div class="col-sm-2">
+                <!-- create an image icon to open the WhatsApp onclick -->     
+                <img src = "https://image.freepik.com/free-vector/whatsapp-icon-design_23-2147900927.jpg" height="35" size="35" onclick="openWhatsApp()">  
+      
+            </div>
 
             <!-- twitter button -->
             <div class="col-sm-2"></div>
