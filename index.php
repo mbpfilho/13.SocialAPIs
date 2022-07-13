@@ -29,8 +29,11 @@
         .jumbotron h1{
             letter-spacing: 2px;
         }
-        .form-horizontal{
-            margin-top: 60px;
+        .row{
+            margin-top: 30px;
+        }
+        .col-sm-4{
+            margin-bottom: 10px;
         }
     </style>
   </head>
@@ -68,30 +71,30 @@
             </div>
         </form>
 
-        <div class="row">
+        <div class="row justify-content-center">
             <!-- facebook button -->
-            <div class="offset-sm-3 col-sm-2">
+            <div class="col-sm-4 col-md-3 col-lg-2">
                 <div class="fb-like" data-href="https://github.com/mbpfilho" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
             </div>
 
             <!-- whatsapp button -->
-            <div class="col-sm-2">
+            <div class="col-sm-4 col-md-3 col-lg-2">
                 <!-- create an image icon to open the WhatsApp onclick -->     
-                <img src = "zap2.png" height="45" size="45" onclick="openWhatsApp()">
+                <img src = "zap2.png" height="40" size="40" onclick="openWhatsApp()">
             </div>
 
             <!-- twitter button -->
-            <div class="col-sm-2">
+            <div class="col-sm-4 col-md-3 col-lg-2">
             <!-- a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a -->
             <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
             <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=https://github.com/mbpfilho">Tweet</a>
             </div>
-
-            twitter timeline
         </div>
 
         <!-- twitter timeline -->
-        <div></div>
+        <div>
+            <a class="twitter-timeline" href="https://twitter.com/TwitterDev" data-width="400" data-height="500" data-chrome="nofooter noborders">Tweets by @TwitterDev</a>
+        </div>
     </div>
       
     <!-- Optional JavaScript -->
