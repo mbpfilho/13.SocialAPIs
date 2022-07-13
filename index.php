@@ -55,14 +55,14 @@
         </div>
 
         <form class="form-horizontal">
-            <div class="form-group">
-                <div class="col-xs-offset-2 col-xs-8">
+            <div class="form-group row justify-content-center">
+                <div class="col-8">
                     <input type="email" id="email" placeholder="Your email" class="form-control">
                 </div>
             </div>
 
-            <div class="form-group">
-                <div class="col-xs-offset-3 col-xs-6">
+            <div class="form-group row justify-content-center">
+                <div class="col-6">
                     <input type="submit" id="submit" value="Subscribe" class="btn btn-info btn-lg">
                 </div>
             </div>
@@ -70,19 +70,24 @@
 
         <div class="row">
             <!-- facebook button -->
-            <div class="col-sm-offset-3 col-sm-2">
+            <div class="offset-sm-3 col-sm-2">
                 <div class="fb-like" data-href="https://github.com/mbpfilho" data-width="" data-layout="button_count" data-action="like" data-size="small" data-share="true"></div>
             </div>
 
             <!-- whatsapp button -->
             <div class="col-sm-2">
                 <!-- create an image icon to open the WhatsApp onclick -->     
-                <img src = "https://image.freepik.com/free-vector/whatsapp-icon-design_23-2147900927.jpg" height="35" size="35" onclick="openWhatsApp()">  
-      
+                <img src = "zap2.png" height="45" size="45" onclick="openWhatsApp()">
             </div>
 
             <!-- twitter button -->
-            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+            <!-- a href="https://twitter.com/intent/tweet?button_hashtag=LoveTwitter&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #LoveTwitter</a -->
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-share-button" href="https://twitter.com/intent/tweet?text=https://github.com/mbpfilho">Tweet</a>
+            </div>
+
+            twitter timeline
         </div>
 
         <!-- twitter timeline -->
